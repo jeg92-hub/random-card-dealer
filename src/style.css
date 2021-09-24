@@ -1,1 +1,54 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background: #0e7e12;
+}
+
+.card {
+  display: inline-block;
+  margin: auto;
+  height: 350px;
+  width: 200px;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.number {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  font-weight: bold;
+  position: absolute;
+  top: 125px;
+  left: 85px;
+}
+.icon {
+  font-size: 60px;
+}
+
+.icon.diamond:after {
+  content: "♦";
+}
+.icon.heart:after {
+  content: "♥";
+}
+.icon.spade:after {
+  content: "♠";
+}
+.icon.club:after {
+  content: "♣";
+}
+.icon.red {
+  color: red;
+}
+.icon.top {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+.icon.bottom {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  transform: rotate(180deg);
+}
